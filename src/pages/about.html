@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script src="preload.js"></script>
+	<link rel="icon" href="{{cdnHost}}/icon.png" type="image/png" />
+	<link rel="stylesheet" href="{{apiHost}}/styles/main.css" />
+	<script src="{{apiHost}}/scripts/head.js"></script>
+	<script src="{{apiHost}}/scripts/accounts.js"></script>
+</head>
+<body>
+	<header class="at-header">
+		<nav class="at-navbar">
+			<ul class="at-nav-left">
+				<li><a href="/store">Store</a></li>
+				<li><a href="/about">About Us</a></li>
+			</ul>
+			<a
+				href="/"
+				class="at-titlecard-link"
+				style="display: inline-block; line-height: 0">
+				<img
+					src="{{cdnHost}}/titlecard.png"
+					alt="AvengeTech Titlecard"
+					class="at-titlecard"
+					style="
+						opacity: 0;
+						transition: opacity 0.4s;
+						cursor: pointer;
+					" />
+			</a>
+			<ul class="at-navbar-mobile">
+				<li><a href="/store">Store</a></li>
+				<li><a href="/about">About Us</a></li>
+				<li><a href="/join">Join Us!</a></li>
+				<li><a id="acc-nb" href="/account">{%accname%}</a></li>
+			</ul>
+			<ul class="at-nav-right">
+				<li><a href="/join">Join Us!</a></li>
+				<li><a id="acc-nb" href="/account">{%accname%}</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="site-grid">
+		<div class="grid-col">
+			<div class="panel">
+				<div class="panel-title">About Us</div>
+				<p>
+					AvengeTech is an ever-growing family friendly Minecraft
+					community. We focus on providing a safe and fun environment
+					for players of all ages. Our community is committed to
+					upholding values of respect, kindness, and inclusivity. We
+					currently offer a variety of game modes and experiences,
+					including the original Prison gamemode and a constantly
+					updating SkyBlock experience!
+				</p>
+				<p>
+					Founded by Sn3ak in October 2015, the network began with its
+					first iteration, AT v1, featuring the Factions gamemode.
+					This version lasted for nearly two years before Sn3ak
+					decided to shut it down to rewrite and improve the server.
+					In the summer of 2017, AT v2 was launched, introducing
+					KitPvP and Prison gamemodes. These gamemodes brought new
+					excitement and challenges to the community, but in late July
+					2018, KitPvP was permanently retired. SkyBlock was
+					introduced in early August 2018, replacing KitPvP and
+					quickly becoming a fan favorite. The network continued to
+					thrive with SkyBlock and Prison gamemodes until early
+					February 2024, when it was shut down once again for a major
+					overhaul. During the summer of 2023, Kally, Pringz, and
+					Miguel joined the team, bringing fresh ideas and expertise
+					to the design and development of the network. Their
+					contributions were instrumental in shaping the next
+					iteration of AvengeTech. AT v3 launched in June 2024,
+					featuring a revamped version of the SkyBlock gamemode, with
+					Kally and Miguel leading the development efforts. Prison was
+					relaunched in August 2024, further solidifying the network's
+					commitment to providing engaging and innovative gameplay
+					experiences. With Kally and Miguel at the helm of
+					development and Pringz managing the staff and community,
+					AvengeTech has continued to grow and evolve, offering
+					players a welcoming and dynamic environment to explore and
+					enjoy.
+				</p>
+				<div class="panel-footer">
+					<small>&copy; 2017 AvengeTech</small>
+				</div>
+			</div>
+		</div>
+		<div class="grid-col">
+			<div class="panel">
+				<div class="panel-title">Our Team</div>
+				<div class="team-list">
+					<div class="team-member">
+						<div class="team-name">Sn3ak</div>
+						<div class="team-title">Founder and Owner</div>
+						<div class="team-desc">
+							Sn3ak was the original visionary behind AvengeTech,
+							leading development and community growth on his own
+							for the first 7 and a half years of its existence!
+						</div>
+					</div>
+					<div class="team-member">
+						<div class="team-name">Kally</div>
+						<div class="team-title">
+							Managing Partner and Head of Development
+						</div>
+						<div class="team-name">Pringz</div>
+						<div class="team-title">
+							Head of Staff and Community Manager
+						</div>
+						<div class="team-desc">
+							Kally and Pringz joined the staff team in the summer
+							of 2023, quickly climbing ranks and taking owning
+							shares in the company. They have been running and
+							shaping the network since the summer of 2024.
+						</div>
+					</div>
+					<div class="team-member">
+						<div class="team-name">Miguel</div>
+						<div class="team-title">
+							Lead Game Designer and Developer
+						</div>
+						<div class="team-desc">
+							Miguel joined the development team alongside Kally,
+							opting to stick to the design and development of the
+							game. He's been the leading face of development
+							since.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>

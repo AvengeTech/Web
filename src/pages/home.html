@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script src="preload.js"></script>
+	<link rel="icon" href="{{cdnHost}}/icon.png" type="image/png" />
+	<link rel="stylesheet" href="{{apiHost}}/styles/main.css" />
+	<script src="{{apiHost}}/scripts/head.js"></script>
+	<script src="{{apiHost}}/scripts/accounts.js"></script>
+</head>
+<body>
+	<header class="at-header">
+		<nav class="at-navbar">
+			<ul class="at-nav-left">
+				<li><a href="/store">Store</a></li>
+				<li><a href="/about">About Us</a></li>
+			</ul>
+			<a
+				href="/"
+				class="at-titlecard-link"
+				style="display: inline-block; line-height: 0">
+				<img
+					src="{{cdnHost}}/titlecard.png"
+					alt="AvengeTech Titlecard"
+					class="at-titlecard" />
+			</a>
+			<ul class="at-navbar-mobile">
+				<li><a href="/store">Store</a></li>
+				<li><a href="/about">About Us</a></li>
+				<li><a href="/join">Join Us!</a></li>
+				<li><a id="acc-nb" href="/account">{%accname%}</a></li>
+			</ul>
+			<ul class="at-nav-right">
+				<li><a href="/join">Join Us!</a></li>
+				<li><a id="acc-nb" href="/account">{%accname%}</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="site-grid">
+		<div class="grid-col">
+			<div class="panel">
+				<div class="panel-title">Welcome to AvengeTech!</div>
+				<p></p>
+				<div class="panel-footer">
+					<small>&copy; 2017 AvengeTech</small>
+				</div>
+			</div>
+		</div>
+		<div class="grid-col">
+			<div class="panel">
+				<div class="panel-title">Community Links!</div>
+				<p>
+					Bunch of links n shi here, discord, store, whatever. idk
+					maybe discard the panel
+				</p>
+			</div>
+		</div>
+	</main>
+	<script src="{{cdnHost}}/scripts/accounts.js"></script>
+</body>

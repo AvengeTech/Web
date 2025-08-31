@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script src="preload.js"></script>
+	<link rel="icon" href="{{cdnHost}}/icon.png" type="image/png" />
+	<link rel="stylesheet" href="{{apiHost}}/styles/main.css" />
+	<script src="{{apiHost}}/scripts/head.js"></script>
+	<script src="{{apiHost}}/scripts/accounts.js"></script>
+</head>
+<body>
+	<header class="at-header">
+		<nav class="at-navbar">
+			<ul class="at-nav-left">
+				<li><a href="/store">Store</a></li>
+				<li><a href="/about">About Us</a></li>
+			</ul>
+			<a
+				href="/"
+				class="at-titlecard-link"
+				style="display: inline-block; line-height: 0">
+				<img
+					src="{{cdnHost}}/titlecard.png"
+					alt="AvengeTech Titlecard"
+					class="at-titlecard"
+					style="
+						opacity: 0;
+						transition: opacity 0.4s;
+						cursor: pointer;
+					" />
+			</a>
+			<ul class="at-navbar-mobile">
+				<li><a href="/store">Store</a></li>
+				<li><a href="/about">About Us</a></li>
+				<li><a href="/join">Join Us!</a></li>
+				<li><a id="acc-nb" href="/account">{%accname%}</a></li>
+			</ul>
+			<ul class="at-nav-right">
+				<li><a href="/join">Join Us!</a></li>
+				<li><a id="acc-nb" href="/account">{%accname%}</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="join-main">
+		<div class="join-buttons">
+			<a
+				href="https://discord.gg/avengetech"
+				target="_blank"
+				class="join-btn">
+				<span class="button-icon"
+					><img
+						src="https://cdn.[REDACTED]/discord.png"
+						style="width: 100%; height: 100%; object-fit: contain"
+				/></span>
+				Join Discord
+			</a>
+			<a
+				href="minecraft://?addExternalServer=AvengeTech|play.[REDACTED]:19132"
+				class="join-btn">
+				<span class="button-icon"
+					><img
+						src="https://cdn.[REDACTED]/minecraft.png"
+						style="width: 100%; height: 100%; object-fit: contain"
+				/></span>
+				Add Minecraft Server
+			</a>
+		</div>
+	</main>
+	<script src="{{cdnHost}}/scripts/accounts.js"></script>
+</body>

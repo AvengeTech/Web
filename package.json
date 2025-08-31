@@ -1,0 +1,30 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Webserver & Website for AvengeTech",
+  "main": "loadup.js",
+  "type": "module",
+  "scripts": {
+    "test": "node loadup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvengeTech/webserver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AvengeTech/webserver/issues"
+  },
+  "homepage": "https://github.com/AvengeTech/webserver#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dgram": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "javascript-obfuscator": "^4.1.1",
+    "mysql": "github:mysqljs/mysql"
+  }
+}
